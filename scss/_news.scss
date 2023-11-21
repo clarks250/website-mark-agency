@@ -1,0 +1,91 @@
+.news {
+    padding: 50px 360px 30px 360px;
+
+    h1{
+        color: #F4F4F4;
+        text-align: center;
+        font-family: 'SF Pro Text';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        display: flow;
+    }
+
+    &__section {
+        
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    &__block {
+        height: 375px;
+        margin: 0 15px 0 15px;
+
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        
+
+        border-radius: 30px;
+
+        div{
+            z-index: 4;
+            padding: 2rem;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+            h2{
+                font-family: 'Poppins';
+                font-weight: 800;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            
+            p{
+                text-shadow: 1px 0 0 rgba(0,0,0,.1);
+                margin-bottom: 0;
+                line-height: 1.1;
+            }
+        }
+
+    }
+
+    &__block::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        background: linear-gradient(-145deg,transparent,rgba(0,0,0,.7) 60%,#000);
+        position: absolute;
+        border-radius: 30px;
+    }
+
+    .w33{
+        width: 33.3%;
+    }
+    .w66{
+        width: 66.6%;
+    }
+
+    .music {
+        background-image: url(https://nftnow.com/wp-content/uploads/2023/08/jpg-14.jpg);
+    }
+    .news1 {
+        background-image: url(https://nftnow.com/wp-content/uploads/2023/08/Dolphins_Rivals_PR_Announce_16x9.jpg);
+    }
+    .news2 {
+        background-image: url(https://nftnow.com/wp-content/uploads/2023/08/cGoldenWolf08-24-230421.jpg);
+    }
+    .features {  
+        background-image: url(https://nftnow.com/wp-content/uploads/2023/08/Zee_jlSGw_VF8V1k.jpeg);
+    }  
+}
+

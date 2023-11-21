@@ -1,0 +1,70 @@
+.header {
+	width: 100%;
+	height: 80px;
+	background-color: rgba($color: #000000, $alpha: .0);
+	transition: .4s ease;
+	z-index: 100;
+	position: absolute;
+}
+
+.header_scroll{
+	background-color: rgba($color: #000000, $alpha: .7);
+	transition: .4s ease;
+}
+.header:hover {
+	background-color: rgba($color: #000000, $alpha: 1);
+	transition: .4s ease;
+}
+.nav {
+	padding: 0 360px 0 360px;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+.logo {
+	display: flex;	
+	div {
+		padding-left: 8px;
+		p{
+			color: #FFF;
+			text-align: center;
+			font-family: 'Poppins';
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 1;
+		}
+	}
+}
+.menu {
+	display: flex;
+    flex-wrap: wrap;
+}
+.item {
+	padding: 0 0 0 20px;	
+}
+.href {
+	color: #FFF;
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+.href:hover{
+    color: #20D883;
+	position: relative;
+}
+
+.href:hover:after {
+	content: "";
+	position: absolute;
+	bottom: -27px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #20D883;
+}

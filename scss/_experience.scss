@@ -1,0 +1,74 @@
+.experience {
+
+    margin-top: 20px;
+    padding: 0 360px 0 360px;
+    text-align: center;
+
+    h1{
+        color: #F4F4F4;
+        text-align: center;
+        font-family: 'SF Pro Text';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        display: flow;
+    }
+
+    &__container {
+        margin-top: 44px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h2{
+        margin-top: 31px;
+        color: #ECECEC;
+        text-align: center;
+        font-family: 'SF Pro Text';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    p{
+        margin-top: 16px;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // margin-top: 77px;
+        width: 379px;
+        height: 63px;
+        border-radius: 10px;
+        background: linear-gradient(225deg, #20D883 0%, #08844A 100%);
+    }
+}
+.text {
+}
+.small-number {
+}
+.container {
+
+    &__block {
+        width: 32%;
+    }
+}
+.block {
+
+    &__img {
+    }
+}
+
+.margin {
+
+    &__center {
+        margin: 0 1% 0 1%;
+    }
+}
